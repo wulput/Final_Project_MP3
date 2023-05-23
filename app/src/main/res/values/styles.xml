@@ -21,6 +21,27 @@
         <item name="android:textColor">#ffffff</item>
     </style>
 
+    <style name="blackTextHeader">
+        <item name="android:textStyle">bold</item>
+        <item name="fontFamily">@font/lucida_fax_demibold</item>
+        <item name="android:textSize">36sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="blackTextBody">
+        <item name="android:textStyle">bold</item>
+        <item name="fontFamily">@font/lucida_fax_demibold</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="blackTextContent">
+        <item name="android:textStyle">normal</item>
+        <item name="fontFamily">@font/lucida_fax_demibold</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
     <style name="Theme.App" parent="Theme.Material3.Light">
         <item name="tabStyle">@style/Widget.AppCompat.ActionBar.Solid</item>
     </style>
