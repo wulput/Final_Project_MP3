@@ -12,6 +12,21 @@
         android:theme="@style/Theme.Atrawica"
         tools:targetApi="31">
         <activity
+            android:name=".Payment1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".OnBoard3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".OnBoard2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".OnBoard1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="false" />
+        <activity
             android:name=".DetailActivity"
             android:exported="false" />
         <activity
