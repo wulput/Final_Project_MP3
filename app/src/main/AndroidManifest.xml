@@ -12,6 +12,12 @@
         android:theme="@style/Theme.Atrawica"
         tools:targetApi="31">
         <activity
+            android:name=".View.Activities.CheckoutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".View.Activities.HomeActivity"
+            android:exported="false" />
+        <activity
             android:name=".Payment1Activity"
             android:exported="false" />
         <activity
@@ -27,10 +33,10 @@
             android:name=".SplashActivity"
             android:exported="false" />
         <activity
-            android:name=".DetailActivity"
+            android:name=".View.Activities.DetailActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".View.Activities.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

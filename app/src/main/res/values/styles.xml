@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="whiteTextHeader">
+        <item name="android:textStyle">bold</item>
+        <item name="fontFamily">@font/lucida_fax_regular</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="whiteTextBody">
+        <item name="android:textStyle">normal</item>
+        <item name="fontFamily">@font/lucida_fax_regular</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="whiteTextContent">
+        <item name="android:textStyle">normal</item>
+        <item name="fontFamily">@font/lucida_fax_regular</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="Theme.App" parent="Theme.Material3.Light">
+        <item name="tabStyle">@style/Widget.AppCompat.ActionBar.Solid</item>
+    </style>
+
+    <style name="Widget.App.TabLayout" parent="Widget.Material3.TabLayout">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.TabLayout</item>
+    </style>
+
+    <style name="ThemeOverlay.App.TabLayout" parent="">
+        <item name="colorPrimary">@color/magentaColor</item>
+        <item name="colorSurface">@color/white</item>
+        <item name="colorOnSurface">@color/magentaColor</item>
+        <item name="fontFamily">@font/font_style_bold</item>
+    </style>
+
+</resources>

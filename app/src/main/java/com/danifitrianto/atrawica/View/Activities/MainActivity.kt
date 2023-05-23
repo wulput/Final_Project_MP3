@@ -1,11 +1,12 @@
-package com.danifitrianto.atrawica
+package com.danifitrianto.atrawica.View.Activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.danifitrianto.atrawica.R
 
-class Payment1Activity : AppCompatActivity() {
+class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_payment1)
+        setContentView(R.layout.activity_main)
     }
 }

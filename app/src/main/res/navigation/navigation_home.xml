@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_home"
+    app:startDestination="@id/listPlacesFragment">
+
+    <fragment
+        android:id="@+id/listPlacesFragment"
+        android:name="com.danifitrianto.atrawica.View.Fragment.HomeFragment.ListPlacesFragment"
+        android:label="fragment_list_places"
+        tools:layout="@layout/fragment_list_places" >
+        <action
+            android:id="@+id/action_listPlacesFragment_to_mapPlacesFragment2"
+            app:destination="@id/mapPlacesFragment" />
+    </fragment>
+    <activity
+        android:id="@+id/homeActivity"
+        android:name="com.danifitrianto.atrawica.View.Activities.HomeActivity"
+        android:label="activity_home"
+        tools:layout="@layout/activity_home" />
+    <fragment
+        android:id="@+id/mapPlacesFragment"
+        android:name="com.danifitrianto.atrawica.View.Fragment.HomeFragment.MapPlacesFragment"
+        android:label="fragment_map_places"
+        tools:layout="@layout/fragment_map_places" >
+        <action
+            android:id="@+id/action_mapPlacesFragment_to_listPlacesFragment2"
+            app:destination="@id/listPlacesFragment" />
+    </fragment>
+</navigation>
